@@ -36,6 +36,9 @@ font-family: 'Source Serif Pro', serif;
     justify-content: space-between;
     align-items: center;
 } 
+.menu-icon{
+    display: none;
+}
 .logo a{
     text-decoration: none;
     font-family: 'Lobster', cursive;
@@ -78,7 +81,10 @@ font-family: 'Source Serif Pro', serif;
     margin: auto;
     width: 430px;
     height: 400px;
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
+
 
 /* main section start */
 .main-section{
@@ -101,7 +107,7 @@ font-family: 'Source Serif Pro', serif;
     margin: 10px;
 }
 
-/* product section start  */
+/* products section start  */
 .container{
     width: 90%;
     margin: auto;

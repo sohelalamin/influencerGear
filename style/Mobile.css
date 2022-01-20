@@ -1,5 +1,42 @@
 @media only screen and (max-width: 480px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(180, 223, 240);
     }
+    p{
+      font-size: 14px;
+    }
+
+    /* slider section start  */
+    .slider{
+      height: 420px;
+    }
+    .slider-img{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 300px;
+    }
+    .slider-title{
+      font-size: 35px;
+  }
+  .artical-section{
+    top: 302px;
+  }
+  .slider-title{
+    font-size: 25px;
+  }
+  /* product section start  */
+  .products-section{
+    grid-template-columns: 1fr ;
+  }
+/* footer section start  */
+.section-foot{
+  display: block;
+}
+
+
+
+
+
+
   }
