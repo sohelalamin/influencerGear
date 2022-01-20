@@ -81,9 +81,13 @@ font-family: 'Source Serif Pro', serif;
     margin: auto;
     width: 430px;
     height: 400px;
-    transform: rotate(360deg);
-    transition-duration: 2s;
+
+    
 }
+.slider-img:hover{
+    transform: rotate(180deg)  ;
+}
+
 
 
 /* main section start */
@@ -170,4 +174,8 @@ font-family: 'Source Serif Pro', serif;
     width: 150px;
     display: flex;
     justify-content: space-around;
+}
+.fab{
+    color: rgba(153, 152, 197, 0.842);
+    
 }
